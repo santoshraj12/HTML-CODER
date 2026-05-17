@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <center>
+        <h1> HTML & WEB Development Faundmentals</h1>
+        <p> A complete revision template based an the provided notes</p>
+    </center>
+    <hr style="height:3px ; background-color: black; border: none;">
+
+    <center>
+
+        <nav>
+            <a href="https://www.basic.come" target="_blank">Basic |</a>
+            <a href="https://www.formatting.com" target="_blank">Formatting |</a>
+            <a href="https://www.media.com" target="_blank">Media |</a>
+            <a href="https://www.list.com" target="_blank">List |</a>
+            <a href="https://www.user.com" target="_blank">Table |</a>
+            <a href="https://www.media.com" target="_blank">Forms</a>
+        </nav>
+    </center>
+    <hr>
+
+    <section>
+        <h1>1. What is Web Development ?</h1>
+        <p> Web Development is the process of craating building and maintaning website and web application. It involves
+            front-end, dock-end, and database management</p>
+
+        <h3>The Client-Server model</h3>
+        <p> The Client (Browser) sentls a request,and the server (provider) senitls back a responase</p>
+
+    </section>
+
+    <section>
+        <h1>2. HTML Element & Formation</h1>
+
+        <p> This paragraph contains various inline element</p>
+        <ul>
+            <li><b>Bold Text</b> vs <b>Strong Importance</b> </li>
+
+            <li><i>Italic Text</i> vs <i>Emphunced Text</i></li>
+
+            <li> <u>Underline Text</u> for visual effect</li>
+
+            <li> Small text: <small>This is small</small></li>
+
+            <li> Seientific Notation: H<sub>2</sub>O ( Subseript) and E=me<sup>2</sup> ( Superscript)</li>
+
+            <li> Keyboard Formatting:</li>
+        </ul>
+        <small>
+            <p> This Proserves spaces arul tabs.</p>
+        </small>
+    </section>
+
+    <section>
+        <h1>3. Multimedia Section</h1>
+        <center>
+            <h5> Image Example:</h5>
+            <img src="image/ggg.jpeg" width="20%"></img>
+
+            <h5> Video Example:</h5>
+            <video src="video/WhatsApp Video 2026-05-17 at 5.50.42 AM.mp4" width="20%" controls="true" loop="true"
+                muted="true"></video>
+
+            <h5> Audio Example:</h5>
+            <audio src="audio/Mere Liye Tum Kaafi Ho Shubh Mangal Zyada Saavdhan 320 Kbps.mp3" controls="true"
+                loop="true" mute="true"></audio>
+            <audio src="audio/Mere Liye Tum Kaafi Ho Shubh Mangal Zyada Saavdhan 320 Kbps.mp3" controls="true" loop="true" mute="true"></audio>
+
+        </center>
+    </section>
+
+    <section>
+        <h1>4. List & Strucrured Data</h1>
+        <h3> Type of Lists.</h3>
+        <h4> unordered List ( Items don't matter)</h4>
+        <ul>
+            <li> Google chrome</li>
+            <li> Mozilla firefox</li>
+            <li> Safari</li>
+        </ul>
+
+        <h4> orederd List ( Sequence matters)</h4>
+        <ol type="A">
+            <li> DNS Lookup</li>
+            <li>HTTP Request</li>
+            <li> Server Responce</li>
+        </ol>
+
+        <h4> Descripion List (Terms & Definitions)</h4>
+        <dl>
+            <dt> HTTP</dt>
+            <dd> Hyper Text Transfer protocol ( not Secure)</dd>
+            <dt> HTTPS </dt>
+            <dd> Hypertext Transfer protocol Secure ( encrypted)</dd>
+        </dl>
+        <section>
+            <h1>5. Browser Engines Table</h1>
+            <table border="1px">
+
+                <head>
+                    <tr>
+                        <th>Engines </th>
+                        <th> bronmrs</th>
+                        <th> Developed by</th>
+                    </tr>
+                </head>
+
+                <tbody>
+                    <tr>
+                        <td>Blink</td>
+                        <td>Chrome,Edge,Opera</td>
+                        <td>Google</td>
+                    </tr>
+
+                    <tr>
+                        <td>Gecko</td>
+                        <td>firefox</td>
+                        <td>Mozilla</td>
+                    </tr>
+
+                    <tr>
+                        <td> Webkji</td>
+                        <td>Safari</td>
+                        <td> Apple</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+
+        <section>
+            <h1>6. HTML Interactive Form</h1>
+            <form action="">
+                <fieldset>
+                    <legend> Student Form</legend>
+                    <label for="userneme"> Full Name:</label>
+                    <input type="text" name="userneme" id="userneme" placeholder="Enter the name" required="true" />
+                    <br>
+                    <br>
+
+                    <label for="email">Email address:</label>
+                    <input type="email" name="email" id="email" required="true">
+                    <br>
+                    <br>
+
+                    <label for="password">password:</label>
+                    <input type="password" name="password" id="password" required="true">
+                    <br>
+                    <br>
+
+                    <label for="gender"> Gender:</label>
+                    <input type="radio" value="male">Male
+                    <input type="radio" value="female">Female
+                    <br>
+                    <br>
+
+                    <label for="hobbies"> Hobbies:</label>
+                    <input type="checkbox" value="coding">Coding
+                    <input type="checkbox" value="reading">Reading
+                    <br>
+                    <br>
+
+                    <label for="date">Date of Birth:</label>
+                    <input type="date" name="date" id="date" required="true">
+                    <br>
+                    <br>
+
+                    <label for="color"> Favorite Color:</label>
+                    <input type="color" name="color" id="color" required="true">
+                    <br>
+                    <br>
+
+                    <label> Qualification</label>
+                    <select name="Qualifition" required="true">
+                        <option value="">select</option>
+                        <option value="10">1oth</option>
+                        <option value="12">12th</option>
+                        <option value="Graduation">Graduation</option>
+                        <option value="BCA">BCA</option>
+                    </select>
+                    <br>
+                    <br>
+
+
+                    <label for="Resume"> Upload your Resume</label>
+                    <input type="file" name="Resume" id="Resume" required="true">
+                    <br>
+                    <br>
+
+                    <button type="submit"> submit application</button>
+                    <button type="reset">Reset</button>
+                </fieldset>
+            </form>
+        </section>
+        <hr>
+        <br>
+
+        <center>
+            <footer>
+                <p> contact for Help:</p>
+                <a href="https://www.email.com" target="_blank">Email Us |</a>
+                <a href="https://www.call support" target="_blank"> call support |</a>
+                <a href="https://www.whatsApp" target="_blank">whatsApp </a>
+                <h5>&copy; 2026 HTML Revision Guide</h5>
+            </footer>
+        </center>
+
+</body>
+
+</html>
