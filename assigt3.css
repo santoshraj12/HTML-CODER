@@ -1,0 +1,243 @@
+body{
+    background-color: antiquewhite;
+}
+
+/*HEADER TAGE */
+.hero{
+    background-color: white;
+    height: 150px;
+    border-radius: 10px;
+}
+
+/* H1 TAGE */
+h1{
+    color:red;
+    /*font-family: 'Georgin,serif';*/
+    font-family: 'lucida handwriting',cursive;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+    /*font-style: italic;*/
+    letter-spacing: 2px;
+}
+
+/*p tage*/
+p{
+    text-align: center;
+    font-family: 'bold';
+    font-size: 15px;
+   /* padding-top: 30px; */
+   margin-bottom: 60px;
+   color: #000;
+    
+}
+
+
+/*main section use*/
+main{
+    background-color: white;
+    height: 490px;
+    border-radius: 10px;
+}
+
+/* image tage (use image)*/
+img{
+    width:5%;
+    margin-top: 5px;
+    margin-left: 5px;
+    border-radius: 10px;
+}
+
+/* h2 tage use ho rha hai */
+h2{
+    /*padding-bottom: 60px;*/
+   /* border: 2px solid #000;*/
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 10px;
+
+}
+
+/*p tage id selector*/
+#ptage1{
+    color:black;
+    padding-left: 100px;
+    text-align: justify;
+    margin-left: 60px;
+    text-shadow: 2px 2px 5px gray;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+/* h5 tage */
+h5{
+    color: rgb(13, 0, 255);
+    margin-left: 153px;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-decoration: underline;
+    text-shadow: 2px 2px 5px red;
+}
+
+/*main section ka h2 tage */
+h2{
+    padding-top: 40px;
+    padding-left: 20px;
+    color: #4B5694;
+}
+
+.para2{
+    background-color:rgb(237, 241,241);
+    border-radius: 10px;
+    font-size: 30px;
+    padding: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 3px;
+}
+
+.line{
+    border: 2px solid #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* lint id selector */
+#link{
+    color: red;
+    font-size:20px;
+    margin-bottom: 400px;
+
+}
+
+/* second main section*/
+#manu{
+    background-color: white;
+    height: 350px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+/* table tage use */
+table{
+    border: none;
+}
+
+table{
+    margin-left: 20px;
+}
+.line1{
+    border: 2px solid #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+/* th tage use */
+#head1{
+    padding-top: 10px;
+    padding-left: 100px;
+    padding-bottom: 20px;
+    padding-right: 15p;
+    text-align: right;
+}
+
+/*h4 tage usese */
+h4{
+    margin-left: 20px;
+}
+
+/* h3 tage id selector */
+#unic{
+    padding-top: 40px;
+    padding-left: 20px;
+    font-size: 30px;
+    color: #4B5694;
+}
+
+/* th tage white color */
+.head{
+    color: white;
+}
+
+
+/* third main section id name santosh */
+#santosh{
+    height: 560px;
+    background-color: white
+    ;
+}
+
+/* fieldset tage useses */
+fieldset{
+    margin-left: 20px;
+    margin-right: 20px;
+    border-radius: 10px;
+}
+
+legend{
+    color: #121358;
+    padding-left: 9px;
+    padding-right: 8px;
+    margin-left: 7px;
+}
+
+/* input tage for the (id selector),*/
+#username{
+    padding-right: 1000px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin-top: 5px;
+    border-radius: 9px;
+}
+
+#email{
+    padding-right: 1000px;
+    padding-left: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+#password{
+    padding-left: 5px;
+    padding-right: 1000px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    margin: 5px;
+    border-radius: 9px;
+}
+
+#quali{
+    padding-right: 1090px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-bottom: 6px;
+    margin-top: 7px;
+    border-radius: 9px;
+}
+
+
+/*button tage use */
+button{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-bottom: 6px;
+    border-radius: 8px;
+    background-color: #232F72;
+    color: white;
+}
+
+/* footer tage */
+#copy{
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+}
