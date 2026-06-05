@@ -2,189 +2,144 @@ body{
     background-color: antiquewhite;
 }
 
-/*HEADER TAGE */
-.hero{
+/*HEADER TAGE h1 p tage use */ 
+header{
     background-color: white;
     height: 150px;
     border-radius: 10px;
+    text-align: center;
 }
 
 /* H1 TAGE */
 h1{
-    color:red;
-    /*font-family: 'Georgin,serif';*/
+    color:rgb(145, 20, 20);
     font-family: 'lucida handwriting',cursive;
     font-size: 40px;
-    font-weight: bold;
-    text-align: center;
     padding-top: 15px;
-    /*font-style: italic;*/
-    letter-spacing: 2px;
 }
 
 /*p tage*/
-p{
-    text-align: center;
-    font-family: 'bold';
-    font-size: 15px;
-   /* padding-top: 30px; */
-   margin-bottom: 60px;
-   color: #000;
-    
+.first-para{
+   font-family: 'bold';
+   color:gray;
+   font-variant: small-caps;
+   font-style: italic;
 }
+ /* end the header  tage */
 
 
-/*main section use*/
-main{
+/* first main section use (h2 image p1 p2) */
+.first-main{
     background-color: white;
-    height: 490px;
+    height: 470px;
     border-radius: 10px;
 }
-
-/* image tage (use image)*/
-img{
-    width:10%;
-    margin-top: 5px;
-    margin-left: 5px;
-    border-radius: 10%;
-    float: left;
-}
-
-/* h2 tage use ho rha hai */
 h2{
-    /*padding-bottom: 60px;*/
-   /* border: 2px solid #000;*/
+    color: #232F72;
     margin-left: 20px;
     margin-right: 20px;
-    margin-top: 10px;
+    padding-top: 20px; 
 
 }
 
-/*p tage id selector*/
-#ptage1{
-    color:black;
-    padding-left: 100px;
-    text-align: justify;
-    margin-left: 60px;
-    font-size: 18px;
-    
+.line{
+    border: 1px solid #000;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 30px;
 }
 
-/* h5 tage */
-h5{
-    color: blue;
-    margin-left: 153px;
-    font-size: 20px;
-    padding-bottom: 40px;
-    
-}
-
-/*main section ka h2 tage */
-h2{
-    padding-top: 40px;
-    padding-left: 20px;
-    color: #4B5694;
-}
-
-.para2{
+.div-box{
     background-color:rgb(237, 241,241);
     border-radius: 10px;
     font-size: 30px;
     padding: 20px;
     margin-left: 20px;
     margin-right: 20px;
-    font-size: 3px;
 }
 
-.line{
-    border: 2px solid #000;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
+img{
+    width:10%;
+    margin-top: 3px;
+    margin-left: 5px;
+    border-radius: 10px;
+    padding-right: 10px;
+    float: left;
 }
 
-/* lint id selector */
-#link{
+#second-para{
+    font-size: 20px;
+}
+
+.third-para{
+    color: blue;
+    text-shadow: 1px 1px 2px blue;
+    font-size: 25px;
+    padding-top: 20px;
+    
+}
+a{
     color: red;
     font-size:20px;
     margin-bottom: 400px;
+    text-decoration: none;
+    text-decoration: underline;
 
 }
+a:hover{
+    color: blue;
+}
+/* first main section end */
 
-/* second main section*/
-#manu{
+
+/* second main section start (h2 h4 or table) */
+.second-main{
     background-color: white;
-    height: 350px;
+    height: 340px;
     border-radius: 10px;
     font-size: 16px;
 }
 
-/* table tage use */
-table{
-    ;
-}
-
-table{
-    margin-left: 20px;
-}
-.line1{
-    border: 2px solid #000;
-    margin-left: 20px;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-/* th tage use */
-#head1{
-    padding-top: 10px;
-    padding-left: 100px;
-    padding-bottom: 20px;
-    padding-right: 15p;
-    text-align: right;
-}
-
-/*h4 tage usese */
 h4{
     margin-left: 20px;
-}
-
-/* h3 tage id selector */
-#unic{
-    padding-top: 40px;
-    padding-left: 20px;
-    font-size: 30px;
-    color: #4B5694;
 }
 
 /* th tage white color */
 .head{
     color: white;
 }
+/* second main section end */
 
 
-/* third main section id name santosh */
-#santosh{
-    height: 580px;
-    background-color: white
-    ;
-}
+/* third main section start fieldset,lagend,label,input */
+#third-main{
+    height: 540px;
+    background-color: white;
+    border-radius: 10px;
+} 
 
 /* fieldset tage useses */
 fieldset{
     margin-left: 20px;
     margin-right: 20px;
     border-radius: 10px;
+    border: 2px solid #232F72 ;
 }
 
 legend{
-    color: #121358;
+    color: #232F72;
     padding-left: 9px;
     padding-right: 8px;
     margin-left: 7px;
 }
+ 
+/* all label same color for (class selector) */
+.all-label{
+    color: #232F72;
+}
 
-/* input tage for the (id selector),*/
-#username{
+/* all  input  aqual size for the (class selector),*/
+.all-input{
     padding-right: 1000px;
     padding-left: 5px;
     padding-bottom: 5px;
@@ -193,33 +148,14 @@ legend{
     border-radius: 9px;
 }
 
-#email{
-    padding-right: 1000px;
+#qualification{
+    padding-right: 1070px;
     padding-left: 5px;
-    padding-top: 5px;
-    padding-bottom: 5px;
-    margin: 5px;
-    border-radius: 9px;
-}
-
-#password{
-    padding-left: 5px;
-    padding-right: 1000px;
     padding-bottom: 5px;
     padding-top: 5px;
-    margin: 5px;
+    margin-top: 5px;
     border-radius: 9px;
 }
-
-#quali{
-    padding-right: 1090px;
-    padding-top: 6px;
-    padding-left: 6px;
-    padding-bottom: 6px;
-    margin-top: 7px;
-    border-radius: 9px;
-}
-
 
 /*button tage use */
 button{
@@ -233,20 +169,19 @@ button{
     background-color: #232F72;
     color: white;
 }
+/* third main section end */
 
-/* footer tage */
-#copy{
+
+/* footer tage  start p tage use*/
+#footer-box{
     font-size: 15px;
     text-align: center;
     font-weight: bold;
-    background-color: #111b21;
-    height: 200px;
-    margin-bottom: 50px;
-    margin: 0;
-    margin-top: 80px;
     border-radius: 10px;
+    background-color: black;
     color: white;
-
+    padding-top: 90px;
+    padding-bottom: 60px;
 }
 
 

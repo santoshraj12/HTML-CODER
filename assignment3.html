@@ -9,46 +9,59 @@
 </head>
 
 <body>
-    <header class="hero">
-        <div class="para1">
+    <!-- semantic element -->
+    <header>
             <h1>coders-world portal</h1>
-            <p> MASTERING CORE HTML & CSS CONEPTS</p>
-        </div>
+            <p class="first-para">MASTERING CORE HTML & CSS CONEPTS</p>
     </header>
-
-    <main>
-        <h2> Understanding Text Formattting & floats</h2>
-        <div class="line"></div>
-
+    
+    <!-- semantic element main content  -->
+    <main class="first-main">
         <section>
-            <div class="para2">
-                <img src="image/Copilot_20260526_122626.png" alt="santosh pic">
+            <h2> Understanding Text Formattting & floats</h2>
+            <div class="line"></div>
+            
+            <!-- none-semantic element-->
+            <div class="div-box">
 
-                <p id="ptage1">This section demonstrates text alignment,trandformation,and word spacing.The image beside
-                    this text uses the <b>CSS float property</b>.As specified in the notes.float push an elemet</p>
+                <!-- Empty element  image ka purpose clear hota hai eska (self-closing)-->
+                <img src="image/WhatsApp Image 2026-04-27 at 4.05.22 PM.jpeg" alt="santosh pic">
+                
+                <!-- semantic element -->
+                <p id="second-para">This section demonstrates text alignment,trandformation,and word spacing.The image beside
+                    this text uses the <strong>CSS float property</strong>.As specified in the notes.float push an elemet</p>
+                
+                <!-- semantic element -->
+                <p class="third-para"> This Specific Sentence Showcases Custom Letter-spacing Text-Shadows,And A   Capitalization Transformation.</p>
 
-                <h5> This Specific Sentence Showcases Custom Letter-spacing Text-Shadows,And A Capitalization
-                    Transformation.</h5>
-                <br>
-                <a id="link" href="https:wa.me/9693375893" target="_blank"> visit Google for Reference</a>
-                <br>
+                <!-- semantic element -->
+                <a  href="https:wa.me/9693375893" target="_blank"> visit Google for Reference</a>
+    
             </div>
         </section>
     </main>
+    
 
-    <main id="manu">
-        <h3 id="unic">Course Modules & History</h3>
-        <div class="line1"></div>
-
-        <h4>CSS Evolution Timeline</h5>
-
+    <!-- semantic element hai (main )-->
+    <main class="second-main">
+    
             <section>
-                <table border="0px" width="95%" cellpadding="10" cellspacing="0" align="center" bgcolor="white" >
-                    <tr bgcolor="#232F72">
+                <h2>Course Modules & History</h3>
+                <div class="line"></div>
+
+                <h4>CSS Evolution Timeline</h4>
+                
+                <!-- semantic element -->
+                <table border="0px" width="95%" cellpadding="10" cellspacing="0" align="center"  bgcolor="white" >
+                    <head>
+                        <tr bgcolor="#232F72">
                         <th class="head">Year</th>
                         <th class="head">Specification</th>
                         <th class="head">Key Features</th>
                     </tr>
+                </head>
+                
+                <tbody>
                     <tr>
                         <td>1994</td>
                         <td>The Proposal</td>
@@ -64,67 +77,62 @@
                         <td>CSS2</td>
                         <td>Added positioning,z-index,and media type.</td>
                     </tr>
+                    </tbody>
 
                 </table>
             </section>
     </main>
 
-    <main id="santosh">
+    <main id="third-main">
         <section>
             <h2>Registration Form</h2>
             <div class="line"></div>
-            <div>
+
                 <form action="">
                     <fieldset>
                         <legend>User Account Details</legend>
-                        <label for="username">Full Name:</label><br>
-                        <input type="text" name="username" id="username" placeholder="John Doo" required="true">
+
+                        <label class="all-label"  for="username">Full Name:</label><br>
+                        <input  type="text" name="username" class="all-input" placeholder="John Doo" required="true">
                         <br>
                         <br>
 
-                        <label for="email">Email Address:</label><br>
-                        <input type="email" name="email" id="email" required="true">
+                        <label class="all-label" for="email">Email Address:</label><br>
+                        <input type="email" name="email" class="all-input" required="true">
                         <br>
                         <br>
 
-                        <label for="password"> Password:</label><br>
-                        <input type="password" name="password" id="password" required="true">
+                        <label class="all-label" for="password"> Password:</label><br>
+                        <input type="password" name="password" class="all-input" required="true">
                         <br>
                         <br>
 
-                        <label for="gender">Gender:</label><br><br>
-                        <input type="radio" name="gender" value="male">Male
-                        <input type="radio"  name="gender" value="female">Female
+                        <label class="all-label" for="gender">Gender:</label><br><br>
+                        <label class="all-label"><input type="radio" name="gender" value="male">Male
+                        <input type="radio"  name="gender" value="female">Female</label> 
                         <br>
                         <br>
 
-                        <label for="">Highest Qualification:</label><br>
-                        <select name="qualification" required="true" id="quali">
-                            <option value="">Select</option>
-                            <option value="10">10th</option>
-                            <option value="12">12th</option>
+                        <label class="all-label" for="">Highest Qualification:</label><br>
+                        <select name="qualification" required="true" id="qualification">
+                            <option value="10">10th Standard</option>
+                            <option value="12">12th Standard</option>
                             <option value="graduation">Graduation</option>
                             <option value="bca">BCA</option>
                             <option value="bba">BBA</option>
                         </select>
 
 
-                        <button class="hii" type="submit" value="submit" >Submit Details</button>
-                        <button  type="claer" value="clear" >Clear Form</button>
-
-                        <!--input type="submit" value="submit" id="submit"> Submit Details
-                        <input type="clear" value="clear" id="clear"> Clear Form-->
+                        <button  type="submit" value="submit" >Submit Details</button>
+                        <button  type="reset" value="reset" >Clear Form</button>
 
                     </fieldset>
-
                 </form>
-            </div>
         </section>
     </main>
 
     <footer>
-
-            <h6 id="copy" >&copy; 2026 Code-World,All Rights Reserved</h6> 
+            <p id="footer-box" >&copy; 2026 Code-World,All Rights Reserved</p> 
     </footer>
 </body>
 
