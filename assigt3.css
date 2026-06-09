@@ -1,9 +1,46 @@
 body{
     background-color: antiquewhite;
+    margin: 0;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
+#parent{
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 10px;
+    background-color:white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    
+}
+
+.child-1{
+    /* padding-left: 10px;
+    padding-top: 20px; */
+    font-family: 'lucida handwriting',cursive;
+    font-size: 25px;
+    color: rgb(63, 154, 35);
+    text-shadow: 2px 2px 5px red;
+}
+
+
+.btn{
+    background-color:black;
+    border: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 12px;
+    padding-right: 12px;
+    margin-bottom: 10px;
+    
+}
+.btn:hover{
+   background-color: red;
+}
 /*HEADER TAGE h1 p tage use */ 
-header{
+/* header{
     background-color: white;
     height: 150px;
     border-radius: 10px;
@@ -11,20 +48,20 @@ header{
 }
 
 /* H1 TAGE */
-h1{
+/* h1{
     color:rgb(145, 20, 20);
     font-family: 'lucida handwriting',cursive;
     font-size: 40px;
     padding-top: 15px;
-}
+} */
 
 /*p tage*/
-.first-para{
+/* .first-para{
    font-family: 'bold';
    color:gray;
    font-variant: small-caps;
    font-style: italic;
-}
+}  */
  /* end the header  tage */
 
 

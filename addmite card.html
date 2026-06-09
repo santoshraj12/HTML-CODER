@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        body {
+            background-color: whitesmoke;
+            margin: 0;
+            padding-left: 20px;
+            padding-right: 20px;
+        }
+
+        .parent {
+            background-color: rgb(237, 233, 233);
+            text-align: center;
+            border-radius: 10px;
+            /* margin-left: 250px;
+            margin-right: 250px; */
+        }
+
+        section {
+            background-color: white;
+            border-radius: 10px;
+
+        }
+
+        #roll {
+            margin-bottom: 20px;
+            padding-top: 7px;
+            padding-bottom: 7px;
+            padding-left: 10px;
+            padding-right: 100px;
+
+        }
+
+        #date {
+            margin-bottom: 20px;
+            padding: 5px;
+            padding-right: 100px;
+        }
+
+        button {
+            padding-top: 8px;
+            padding-bottom: 10px;
+            padding-right: 15px;
+            padding-left: 15px;
+            border-radius: 5px;
+            background-color: #1591DC;
+            color: white;
+        }
+
+        button:hover {
+            background-color: red;
+            color: black;
+        }
+
+        footer {
+            height: 100px;
+            background-color: rgba(0, 0, 0, 0.847);
+            color: white;
+            padding-top: 100px;
+            border-radius: 10px;
+        }
+
+        .child {
+            color: black;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="parent">
+        <header>
+            <h2 style="color: blue; font-weight: bold; padding-top: 20px;">Bihar Combiend Entance Competitive
+                Examination Board</h2>
+            <hr>
+
+            <p>औद्योगिक प्रशिक्षण संस्थान प्रतियोगिता प्रवेश परीक्षा - 2026</p>
+            <hr>
+            <p>INDUSTRIAL TRAAINING INSTITUTE COMPETITIVE ADDMISSION TEST-2026</p>
+            <hr>
+
+            <p>District Wise Rank Card of ITICAT-2026</p>
+        </header>
+
+        <section>
+            <h2>Enter Roll No. & Date of Birth</h2>
+            <form action="">
+                <label class="child" for="Roll">Roll No.:</label>
+                <input type="roll" name="roll" id="roll" placeholder="e.g. 1234567"><br>
+
+                <label class="child" for="date">Date of Birth:</label>
+                <input type="date" name="date" id="date"><br>
+
+                <button>Show Rank</button>
+                <a href="#">Forget Password</a>
+
+            </form>
+        </section>
+
+        <footer>
+            <p> &copy; Bihar Combiend Entance Competitive Examination Board-2026</p>
+        </footer>
+    </main>
+
+</body>
+
+</html>
