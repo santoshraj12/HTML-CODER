@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>logo website</title>
+
+    <style>
+        body{
+            background-image: url(image/WhatsApp\ Image\ 2026-06-21\ at\ 1.46.34\ PM\ \ 11.jpeg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        div{
+            width: 180px;
+            height: 230px;
+            border: 1px solid #fff;
+            color: #fff;
+            padding-left: 20px;
+            padding-right: 20px;
+            background: transparent;
+            backdrop-filter: blur(20px);
+            border-radius: 20px;margin-left: 400px;
+            margin-top: 100px;
+            margin-right: 40px;
+        }
+
+        h2{
+            display: flex;
+            justify-content: center;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 18px;
+        }
+        .username{
+            border: 2px solid #fff;
+            border-left: none;
+            border-right: none;
+            border-top: none;
+            background: transparent;
+            color: #fff;
+            margin-top: 15px;
+        }
+        input::placeholder{
+            color: #fff;
+
+        }
+
+        .remember{
+            margin-top: 10px;
+            margin-right: 1px;
+        }
+        span{
+            font-size: 10px;
+        }
+        
+        .forgot{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        button{
+            margin-top: 10px;
+            padding-right: 80px;
+            padding-left: 60px;
+            padding-top: 2px;
+            padding-bottom: 2px;
+            border-radius: 10px;
+            border: 1px solid black;
+
+        }
+        button:hover{
+            background-color: #ff7200;
+        }
+        p{
+            font-size: 10px;
+            margin-left: 20px;
+        }
+        a{
+            color: #fff;
+            text-decoration: none;
+        }
+        a:hover{
+            color: #ff7200;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Login</h2>
+        <form action="login">
+         <input type="text" nmae="username" class="username" placeholder="&#128100; Username  " required="true"><br>
+
+         <input type="password" name="password" class="username" placeholder="&#128274; password " required="true"><br>
+         <input type="checkbox" name="remember" class="remember" required="true"> <span>Remember me</span>
+
+         <a class="forgot" href="#">Forgot password</a><br>
+         <button>Login</button><br>
+
+         <p>Don't have an account? <a href="#">Register </a></p>
+        </form>
+    </div>
+</body>
+</html>

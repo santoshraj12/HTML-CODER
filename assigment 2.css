@@ -1,17 +1,15 @@
 /* image right*/
 img{
-    width: 330px;
-    height: 330px;
+    width: 250px;
+    height: 250px;
     border-radius:50% ;
-    float: right;
-    margin: 200px 80px 80px 150px;
-    align-items: center;
+    margin: 150px 70px 70px 100px;
 }
 
 /* div-left*/
 div{
     float: left;
-    /*height: 40px;*/
+    height: 40px;
     margin: 150px 70px 70px 100px;
 }
 
@@ -47,7 +45,7 @@ div{
 h1{
 
     color: #00cff0;;
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bold;
     margin-bottom: 0;
 }
@@ -62,7 +60,9 @@ p{
 
 /* header tad class selector*/
 header{
-    height: 600px;
-    background-color:#ccc;
+    height: 500px;
+    background-color:#ccc; 
+    display: flex;
+    justify-content: space-between;
 }
 
