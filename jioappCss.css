@@ -1,0 +1,442 @@
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(247, 244, 241);
+}
+
+.header {
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right: 30px;
+
+
+}
+
+.header-img-1 {
+    margin-left: 10px;
+    float: left;
+}
+
+.header-nav {
+    color: black;
+    text-decoration: none;
+    float: left;
+    margin-right: 40px;
+    margin-top: 15px;
+    font-size: 15px;
+}
+
+.header-nav:hover {
+    border-bottom: 3px solid rgba(10, 10, 244, 0.945);
+    padding-top: 5px;
+}
+
+.Investor {
+    margin-top: 15px;
+    color: black;
+    float: left;
+    text-decoration: none;
+    margin-left: 200px;
+    font-size: 15px;
+}
+
+.Investor:hover {
+    border-bottom: 3px solid blue;
+}
+
+#icon {
+    font-size: 20px;
+    margin-top: 15px;
+    float: left;
+    color: blue;
+}
+
+.section1-div-box {
+    background-image: url(image/jio\ image.jpeg);
+    height: 400px;
+    width: 940px;
+    border-radius: 20px;
+    background-size: cover;
+    margin-left: 30px;
+    margin-right: 40px;
+    margin-top: 60px;
+    float: left;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.section1-div-box-head {
+    padding-top: 100px;
+    margin-left: 30px;
+    color: white;
+    font-size: 30px;
+}
+
+.section1-div-box-paraghraf {
+    margin-left: 30px;
+    color: white;
+    font-size: 15px;
+}
+
+.section1-div-box-btn {
+    background-color: blue;
+    color: #fff;
+    margin-left: 30px;
+    padding-bottom: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    border-radius: 10px;
+    float: left;
+}
+
+/* ====================================section-2 start============================== */
+#section-2tage{ 
+    width: 940px ;
+    height: 700px;
+    background-color: blueviolet;
+    
+} 
+.working-hours {
+    margin-left: 60px;
+    float: left;
+    font-size: 15px;
+    margin-top: 40px;
+
+}
+
+#Earn {
+    float: left;
+    font-size: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+#cities {
+    float: left;
+    font-size: 15px;
+    margin-left: 60px;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+
+.user {
+    font-size: 15px;
+    margin-top: 40px;
+    float: left;
+    margin-left: 180px;
+}
+
+#own-boss {
+    padding-top: 100px;
+    font-size: 15px;
+    margin-left: 150px;
+}
+
+/*  ==========================section three all tage just like a div h2 income generate====================== */
+#income-bar-parent{
+    width: 940px;
+    height: 300px;
+    background-color: #fff;
+    margin-top: 180px;
+    margin-left: 30px;
+    margin-right: 40px;
+    border-radius: 10px;
+    backdrop-filter: calc(100px);
+
+}
+#Customer-associate{
+    width: 450px;
+    height: 300px;
+    background-color: rgba(0, 0, 255, 0.724);
+    color: #fff;
+    border-radius: 12px;
+    float: left;
+    margin-right: 30px;
+
+}
+#Customer-associate:hover{
+    background-color: blue;
+}
+.section-3-btn2{
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 8px;
+    border-radius: 10px;
+    margin-left: 30px;
+    color: black;
+    float: left;
+}
+
+/* ================================section forth start all tage it is used css  ======================== */
+
+.menu-bar{
+    height: 500px;
+    background-color: #0d9edc;
+    width: 1000px;
+    margin-top: 90px;
+    /* display: flex;
+    justify-content: space-evenly; */
+}
+.menu-bar:hover{
+    background-color: #0c4158;
+}
+
+.menu-child-1{
+    width: 250px;
+    height: 130px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 40px;
+    float: left;
+}
+
+.menu-child-2{
+    width: 250px;
+    height: 130px;
+    background-color: #fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 70px;
+    float: left;
+} 
+
+#menu-child-3{
+    width: 250px;
+    height: 130px;
+    background-color:#fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 70px;
+    float: left;
+} 
+
+#menu-child-4{
+    width: 250px;
+    height: 130px;
+    background-color:#fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 40px;
+    float: left;
+    margin-top: 20px;
+} 
+
+#menu-child-5{
+    width: 250px;
+    height: 130px;
+    background-color:#fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 70px;
+    float: left;
+    margin-top: 20px;
+} 
+
+#menu-child-6{
+    width: 250px;
+    height: 130px;
+    background-color:#fff;
+    color: black;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    margin-left: 70px;
+    float: left;
+    margin-top: 20px;
+} 
+
+/* =========================section five start all element just like h1 div p tage=================--> */
+.Patna-king1{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+#patna-king2{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+#patna{
+    width: 250px;
+    height: 220px;
+    border-radius: 10px;
+    background-color: rgb(35, 35, 208);
+    color: #fff;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#patna-img1{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    float: left;
+    padding-right: 10px;
+}
+/*   ================section six start just like a p tage h1 tage div tage======================= */
+
+details{
+    font-size: 45px;
+    border-bottom: 2px solid #ddd;
+    padding: 20px 0;
+    margin-right: 30px;
+    margin-left: 15px;
+    
+}
+summary{
+    font-size: 15px;
+    cursor: pointer;
+    list-style: none;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+summary:hover{
+    color: #555;
+}
+summary::-webkit-details-marker{
+    display: none;
+}
+summary::after{
+    content: "+";
+    float: right;
+    font-size: 28px;
+}
+
+details[open]summary::after{
+    color: "-";
+}
+/* ============= section seven start just like a from registretion div tage ====================== */
+#Form-parent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+    margin-left: 15px;
+    margin-right: 30px;
+}
+
+
+
+.Name{
+    padding-right: 260px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    border: 1px solid black;
+}
+
+.occupation{
+    padding-right: 295px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.date{
+    padding-right: 317px;
+    padding-bottom: 8px;
+    padding-top: 9px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+
+.gender{
+    padding-right: 325px;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    border-radius: 8px;
+    border: 1px solid black;
+    margin-bottom: 25px;
+}
+label{
+    font-size: 13px;
+    color: #555;
+    padding-left: 6px;
+}
+
+.form-btn{
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 60px;
+    border-radius: 20px;
+    background-color: rgb(24, 24, 196);
+    color: #fff;
+    margin-top: 20px;
+}
+.without{
+    width: 400px;
+    height: 333px;
+    background-color: rgb(7, 7, 130);
+    color: #fff;
+    padding-top: 40px;
+    border-radius: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.without-img1{
+    width: 400px;
+}
+
+/* =========================footer tage start just like tabel  tr td used====================== */
+footer{
+    background-color: #ddd;
+    margin-top: 60px;
+    padding-top: 30px;
+    height: 460px;
+    width: 1000px;
+}
+#parent-table{
+    display: flex;
+    justify-content: space-between;
+}
+
+th{
+    padding-right: 60px;
+    padding-left: 30px;
+    font-size: 14px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+td{
+    padding-left: 30px;
+    padding-top: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #6b6767;
+    font-size: 10px;
+}
+
+.icon{
+    font-size: 20px;
+    color: blue;
+    padding-right: 10px;
+}
+
+.sumit{
+    float: right;
+    margin-top: 30px;
+    margin-right: 15px;
+    color:rgb(15, 15, 157);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
